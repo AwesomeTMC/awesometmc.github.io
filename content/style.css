@@ -1,7 +1,8 @@
 body {
 	background-size: 100%;
 	color:white;
-	font-family: 'Delfino', sans-serif;
+	font-family: Delfino, sans-serif;
+	src: url(Delfino.ttf);
 	background-color: rgb(55, 55, 55);
 }
 

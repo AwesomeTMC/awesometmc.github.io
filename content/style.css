@@ -22,6 +22,7 @@ src: url(Delfino.ttf);
 	margin-bottom: 1px;
 	border-radius: 20px;
 	border: 10px black;
+	border-bottom: 1px solid rgba(0, 0, 0,0);
 	box-shadow: 0px 0px 20px black;
 	text-align: center;
 	transition: background-color linear 300ms;
@@ -50,11 +51,11 @@ h1,h2,h3,p,li {
 	margin-bottom:2%;
 }
 a {
-  color: #50A0F9;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(0, 0, 0 ,0);
-  /*Makes the text smoothly transition to the underline*/
-  transition: border-bottom 300ms;
+	color: #50A0F9;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0, 0, 0 ,0);
+	/*Makes the text smoothly transition to the underline*/
+	transition: border-bottom 300ms;
 }
 a:hover {
 	/*Makes the text have an underline when hovered over*/
@@ -87,21 +88,35 @@ ul {
     margin-bottom:1px; 
 }
 @media screen and (max-width: 600px) {
-  .pc {
-    display: none;
-  }
+	.pc {
+		display: none;
+	}
+
 	img {
 		width: 90%;
 		height: 40%;
 	}
+
 	.container {
 		width: 100%;
 		margin-right: 0;
 		margin-left: 0;
 	}
+
 	.video {
 		width: 90%;
 		height: 40%;
+	}
+
+	.centerlink {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	li {
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 @media screen and (min-width: 601px) {

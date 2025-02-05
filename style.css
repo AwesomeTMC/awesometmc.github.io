@@ -122,7 +122,7 @@ svg:hover {
 	background-color: #ff5d00;
 }
 
-#smg2mm, #smss, #smg2ptd, #blog0, #wh-neo {
+.project {
 	background-size: cover;
 	background-position: center;
 	border-radius: 10px;
@@ -146,6 +146,9 @@ svg:hover {
 
 #wh-neo {
 	background-image: url(res/wh-neo.png);
+}
+#pybrs {
+	background-image: url(res/pybrs.png);
 }
 #discord {
 	color: #5865F2;

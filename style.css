@@ -150,6 +150,15 @@ svg:hover {
 #pybrs {
 	background-image: url(res/pybrs.png);
 }
+#galaxeyes {
+	background-image: url(res/galaxeyes.png);
+}
+#pygapa {
+	background-image: url(res/pygapa.png);
+}
+#j3dview {
+	background-image: url(res/j3dview.png);
+}
 #discord {
 	color: #5865F2;
 }
